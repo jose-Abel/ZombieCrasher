@@ -1,0 +1,578 @@
+Using pre-set license
+Desktop is 1366 x 768 @ 60 Hz
+
+ COMMAND LINE ARGUMENTS:
+Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+/home/toshiba/Desktop/Studying/Unity/Zombie Crasher
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+38543
+Successfully changed project path to: /home/toshiba/Desktop/Studying/Unity/Zombie Crasher
+/home/toshiba/Desktop/Studying/Unity/Zombie Crasher
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 55.75 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.12f1 (b3b2c6512326)
+[Subsystems] Discovering subsystems at path /home/toshiba/Desktop/Unity/2020.3.12f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /home/toshiba/Desktop/Studying/Unity/Zombie Crasher/Assets
+GLX Extensions: GLX_EXT_visual_info GLX_EXT_visual_rating GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGI_video_sync GLX_SGI_swap_control GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_buffer_age GLX_ARB_create_context GLX_ARB_create_context_profile GLX_EXT_create_context_es_profile GLX_EXT_create_context_es2_profile GLX_ARB_create_context_robustness GLX_NV_delay_before_swap GLX_EXT_stereo_tree GLX_ARB_multisample GLX_NV_float_buffer GLX_ARB_fbconfig_float GLX_EXT_framebuffer_sRGB GLX_NV_multisample_coverage GLX_ARB_get_proc_address 
+Renderer: GeForce GT 720M/PCIe/SSE2
+Vendor:   NVIDIA Corporation
+Version:  4.4.0 NVIDIA 340.108
+GLES:     0
+ GL_AMD_multi_draw_indirect GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_color_buffer_float GL_ARB_compressed_texture_pixel_storage GL_ARB_conservative_depth GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_depth_texture GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_indirect GL_ARB_draw_elements_base_vertex GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_ES2_compatibility GL_ARB_ES3_compatibility GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_program GL_ARB_fragment_program_shadow GL_ARB_fragment_shader GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_geometry_shader4 GL_ARB_get_program_binary GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 G
+L_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_imaging GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_multisample GL_ARB_multitexture GL_ARB_occlusion_query GL_ARB_occlusion_query2 GL_ARB_pixel_buffer_object GL_ARB_point_parameters GL_ARB_point_sprite GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counters GL_ARB_shader_bit_encoding GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_query_buffer_object GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_lod GL_ARB_shading_language_100 GL_AR
+B_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_shadow GL_ARB_sparse_texture GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_ARB_texture_border_clamp GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map GL_ARB_texture_cube_map_array GL_ARB_texture_env_add GL_ARB_texture_env_combine GL_ARB_texture_env_crossbar GL_ARB_texture_env_dot3 GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_mirrored_repeat GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_
+ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transpose_matrix GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_program GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ARB_window_pos GL_ATI_draw_buffers GL_ATI_texture_float GL_ATI_texture_mirror_once GL_S3_s3tc GL_EXT_texture_env_add GL_EXT_abgr GL_EXT_bgra GL_EXT_bindable_uniform GL_EXT_blend_color GL_EXT_blend_equation_separate GL_EXT_blend_func_separate GL_EXT_blend_minmax GL_EXT_blend_subtract GL_EXT_compiled_vertex_array GL_EXT_Cg_shader GL_EXT_depth_bounds_test GL_EXT_direct_state_access GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_draw_range_elements GL_EXT_fog_coord GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXTX_framebuffer_mixed_formats GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_fra
+mebuffer_sRGB GL_EXT_geometry_shader4 GL_EXT_gpu_program_parameters GL_EXT_gpu_shader4 GL_EXT_multi_draw_arrays GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_packed_pixels GL_EXT_pixel_buffer_object GL_EXT_point_parameters GL_EXT_provoking_vertex GL_EXT_rescale_normal GL_EXT_secondary_color GL_EXT_separate_shader_objects GL_EXT_separate_specular_color GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_shadow_funcs GL_EXT_stencil_two_side GL_EXT_stencil_wrap GL_EXT_texture3D GL_EXT_texture_array GL_EXT_texture_buffer_object GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_latc GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_cube_map GL_EXT_texture_edge_clamp GL_EXT_texture_env_combine GL_EXT_texture_env_dot3 GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_lod GL_EXT_texture_lod_bias GL_EXT_texture_mirror_clamp GL_EXT_texture_object GL_EXT_texture_shared_exponent GL_EXT_texture_sRGB GL_EXT_texture_sRGB_decode GL_EXT_texture_
+storage GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback2 GL_EXT_vertex_array GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_EXT_x11_sync_object GL_EXT_import_sync_object GL_IBM_rasterpos_clip GL_IBM_texture_mirrored_repeat GL_KHR_debug GL_KTX_buffer_region GL_NV_bindless_multi_draw_indirect GL_NV_bindless_multi_draw_indirect_count GL_NV_blend_equation_advanced GL_NV_blend_square GL_NV_compute_program5 GL_NV_conditional_render GL_NV_copy_depth_to_color GL_NV_copy_image GL_NV_depth_buffer_float GL_NV_depth_clamp GL_NV_draw_texture GL_NV_ES1_1_compatibility GL_NV_ES3_1_compatibility GL_NV_explicit_multisample GL_NV_fence GL_NV_float_buffer GL_NV_fog_distance GL_NV_fragment_program GL_NV_fragment_program_option GL_NV_fragment_program2 GL_NV_framebuffer_multisample_coverage GL_NV_geometry_shader4 GL_NV_gpu_program4 GL_NV_gpu_program4_1 GL_NV_gpu_program5 GL_NV_gpu_program5_mem_extended GL_NV_gpu_program_fp64 GL_NV_gpu_shader5 GL_NV_half_float GL_NV_light_max_exponent GL_NV_multisample_
+coverage GL_NV_multisample_filter_hint GL_NV_occlusion_query GL_NV_packed_depth_stencil GL_NV_parameter_buffer_object GL_NV_parameter_buffer_object2 GL_NV_path_rendering GL_NV_pixel_data_range GL_NV_point_sprite GL_NV_primitive_restart GL_NV_register_combiners GL_NV_register_combiners2 GL_NV_shader_atomic_counters GL_NV_shader_atomic_float GL_NV_shader_buffer_load GL_NV_shader_storage_buffer_object GL_NV_texgen_reflection GL_NV_texture_barrier GL_NV_texture_compression_vtc GL_NV_texture_env_combine4 GL_NV_texture_expand_normal GL_NV_texture_multisample GL_NV_texture_rectangle GL_NV_texture_shader GL_NV_texture_shader2 GL_NV_texture_shader3 GL_NV_transform_feedback GL_NV_transform_feedback2 GL_NV_vdpau_interop GL_NV_vertex_array_range GL_NV_vertex_array_range2 GL_NV_vertex_attrib_integer_64bit GL_NV_vertex_buffer_unified_memory GL_NV_vertex_program GL_NV_vertex_program1_1 GL_NV_vertex_program2 GL_NV_vertex_program2_option GL_NV_vertex_program3 GL_NVX_conditional_render GL_NVX_gpu_memory_info GL_NV_shader_thre
+ad_group GL_KHR_blend_equation_advanced GL_SGIS_generate_mipmap GL_SGIS_texture_lod GL_SGIX_depth_texture GL_SGIX_shadow GL_SUN_slice_accum
+OPENGL LOG: Creating OpenGL 4.4 graphics device ; Context level  <OpenGL 4.4> ; Context handle -1938646208
+Initialize mono
+Mono path[0] = '/home/toshiba/Desktop/Unity/2020.3.12f1/Editor/Data/Managed'
+Mono path[1] = '/home/toshiba/Desktop/Unity/2020.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/home/toshiba/Desktop/Unity/2020.3.12f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56588
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /home/toshiba/Desktop/Unity/2020.3.12f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /home/toshiba/Desktop/Unity/2020.3.12f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.002026 seconds.
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 50.74 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.246 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003490 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.329 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1387 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 60.2 MB.
+System memory in use after: 60.2 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1820.
+Total: 4.738741 ms (FindLiveObjects: 0.188642 ms CreateObjectMapping: 0.083049 ms MarkObjects: 4.051567 ms  DeleteObjects: 0.413607 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scenes
+  artifactKey: Guid(dae61cc24dafb2634b418c279accbebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(dae61cc24dafb2634b418c279accbebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2afc5cc2dfcacce8e319b6354f28f122') in 0.041931 seconds 
+  Import took 0.046329 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 73.934828 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.001488 seconds 
+  Import took 0.007225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.546157 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(81466ec0ea5443d9fabb2812c4629bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(81466ec0ea5443d9fabb2812c4629bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb85d431ca6bcda5244390b3bed42151') in 0.001715 seconds 
+  Import took 0.006041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.115131 seconds.
+  path: Assets/Scripts/Player Scripts
+  artifactKey: Guid(776bedc321fef9c0297b48eaaca24d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player Scripts using Guid(776bedc321fef9c0297b48eaaca24d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61872ceab4e80830583b96bb4702b552') in 0.001419 seconds 
+  Import took 0.005548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000891 seconds.
+  path: Assets/Scripts/Player Scripts
+  artifactKey: Guid(776bedc321fef9c0297b48eaaca24d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player Scripts using Guid(776bedc321fef9c0297b48eaaca24d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61872ceab4e80830583b96bb4702b552') in 0.001833 seconds 
+  Import took 0.007112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.122288 seconds.
+  path: Assets/Models
+  artifactKey: Guid(0b8ea34a7f34d51ea88c77f8ad6f0df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models using Guid(0b8ea34a7f34d51ea88c77f8ad6f0df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddd7b7197844f5e7027f7dd4d2cbf9fd') in 0.000946 seconds 
+  Import took 0.005198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.503844 seconds.
+  path: Assets/Models/Military
+  artifactKey: Guid(8f2ecdc6f6655976f87f196516dbf6ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Military using Guid(8f2ecdc6f6655976f87f196516dbf6ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eeba0aa6afae83b5ed12ae2e58c0031') in 0.001255 seconds 
+  Import took 0.010656 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000901 seconds.
+  path: Assets/Models/Military
+  artifactKey: Guid(8f2ecdc6f6655976f87f196516dbf6ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Military using Guid(8f2ecdc6f6655976f87f196516dbf6ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eeba0aa6afae83b5ed12ae2e58c0031') in 0.001322 seconds 
+  Import took 0.006406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.966741 seconds.
+  path: Assets/Models/Military/Prefabs
+  artifactKey: Guid(c6bcec855f616ea47ad913932a397b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Military/Prefabs using Guid(c6bcec855f616ea47ad913932a397b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ceb0d6581ca4d22f0feaa94400fd95a') in 0.001634 seconds 
+  Import took 0.007432 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.107462 seconds.
+  path: Assets/Models/Military/Prefabs/Ground Level.prefab
+  artifactKey: Guid(e1920f5b502b54275bc2afcc166d1f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Military/Prefabs/Ground Level.prefab using Guid(e1920f5b502b54275bc2afcc166d1f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87d8d56b4a616b8e46e3cb835d51a879') in 2.304029 seconds 
+  Import took 2.310659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Models/Military/Prefabs/GroundBlock Main.prefab
+  artifactKey: Guid(67d4f25429d44c88a88f63158b3c102e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Military/Prefabs/GroundBlock Main.prefab using Guid(67d4f25429d44c88a88f63158b3c102e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b9c96ddf9a66d8911cfe02a0520a8f7') in 0.629123 seconds 
+  Import took 0.636314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 231.173557 seconds.
+  path: Assets/Models/Military/Prefabs/Vehicles
+  artifactKey: Guid(a2abfb651017d9448a3f6d1a9dc4f2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Military/Prefabs/Vehicles using Guid(a2abfb651017d9448a3f6d1a9dc4f2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16bb77ec3646c128ef554cee84bb29b9') in 0.001465 seconds 
+  Import took 0.006568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.111372 seconds.
+  path: Assets/Models/Military/Prefabs/Vehicles/apc_01_a.prefab
+  artifactKey: Guid(16923535714c52840a3d4a2d263e5359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Military/Prefabs/Vehicles/apc_01_a.prefab using Guid(16923535714c52840a3d4a2d263e5359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17ac8511c5e5b92fde87f4b78622c45a') in 0.120592 seconds 
+  Import took 0.125358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Models/Military/Prefabs/Vehicles/armor_car_a.prefab
+  artifactKey: Guid(dc20c88bb01f0eb479db09c7b8833bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Military/Prefabs/Vehicles/armor_car_a.prefab using Guid(dc20c88bb01f0eb479db09c7b8833bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64ada132dc732724353400986e5335a4') in 0.108398 seconds 
+  Import took 0.113436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Models/Military/Prefabs/Vehicles/truck_fuel_b.prefab
+  artifactKey: Guid(aace8f73e0d0a0c4da64d0df03cc0fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Military/Prefabs/Vehicles/truck_fuel_b.prefab using Guid(aace8f73e0d0a0c4da64d0df03cc0fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cc9086c35865d95b826c644c323d888') in 0.105173 seconds 
+  Import took 0.109932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Models/Military/Prefabs/Vehicles/truck_fuel_c.prefab
+  artifactKey: Guid(5ac3263cae013a04588ae10f937c3ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Military/Prefabs/Vehicles/truck_fuel_c.prefab using Guid(5ac3263cae013a04588ae10f937c3ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a51f0172f679f13c409b451811907f4e') in 0.046218 seconds 
+  Import took 0.049730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Models/Military/Prefabs/Vehicles/radar_unit_c.prefab
+  artifactKey: Guid(f7cbbf598d3f06442a43a32e876d1506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Military/Prefabs/Vehicles/radar_unit_c.prefab using Guid(f7cbbf598d3f06442a43a32e876d1506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '629a386ce01292d51f5f566ee505d6fa') in 0.039734 seconds 
+  Import took 0.044075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Models/Military/Prefabs/Vehicles/truck_troop_02_b.prefab
+  artifactKey: Guid(b06455aa5911e7f4da9d9b12c3228232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Military/Prefabs/Vehicles/truck_troop_02_b.prefab using Guid(b06455aa5911e7f4da9d9b12c3228232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64a26d5bd98529b17719927b377f982e') in 0.045439 seconds 
+  Import took 0.050995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Models/Military/Prefabs/Vehicles/small_heli_b.prefab
+  artifactKey: Guid(2861bbf6f05d59f48a5f3c2090df1433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Military/Prefabs/Vehicles/small_heli_b.prefab using Guid(2861bbf6f05d59f48a5f3c2090df1433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '869304298c8ad81b008b58765835b614') in 0.032667 seconds 
+  Import took 0.037256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000482 seconds.
+  path: Assets/Models/Military/Prefabs/Vehicles/apc_01_c.prefab
+  artifactKey: Guid(d9981ea3bed272e43bee83ef04280429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Military/Prefabs/Vehicles/apc_01_c.prefab using Guid(d9981ea3bed272e43bee83ef04280429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c63cc44309343ce381fa7e157cd49a1c') in 0.195213 seconds 
+  Import took 0.199511 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Models/Military/Prefabs/Vehicles/tank_01_c.prefab
+  artifactKey: Guid(11b559712dc716e43ba3b12f09c64572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Military/Prefabs/Vehicles/tank_01_c.prefab using Guid(11b559712dc716e43ba3b12f09c64572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c16bacd19d5489ee37dede79be7d8523') in 0.038203 seconds 
+  Import took 0.043770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Models/Military/Prefabs/Vehicles/small_heli_a.prefab
+  artifactKey: Guid(d18f8a18e400b4f4a880ed34037ff101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Military/Prefabs/Vehicles/small_heli_a.prefab using Guid(d18f8a18e400b4f4a880ed34037ff101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d95333661af75f4cb049f8f9e94629e') in 0.199660 seconds 
+  Import took 0.203326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Models/Military/Prefabs/Vehicles/truck_fuel_a.prefab
+  artifactKey: Guid(5efd62e7fbd44ad4da9ed37e4f4b8635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Military/Prefabs/Vehicles/truck_fuel_a.prefab using Guid(5efd62e7fbd44ad4da9ed37e4f4b8635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78726e0c7b7028b575fc62ff2f9b377c') in 0.088788 seconds 
+  Import took 0.093945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Models/Military/Prefabs/Vehicles/truck_troop_c.prefab
+  artifactKey: Guid(934f6bb7bed57e04a82ab591da8cf278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Military/Prefabs/Vehicles/truck_troop_c.prefab using Guid(934f6bb7bed57e04a82ab591da8cf278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0124ddcff1578b8ad6dc6f91af35046a') in 0.032915 seconds 
+  Import took 0.037313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Models/Military/Prefabs/Vehicles/armor_car_c.prefab
+  artifactKey: Guid(4aded212cfa921f4ab3abec0e761986e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Military/Prefabs/Vehicles/armor_car_c.prefab using Guid(4aded212cfa921f4ab3abec0e761986e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44e3f08137b2a6075471a54217ed7e42') in 0.017912 seconds 
+  Import took 0.023162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Models/Military/Prefabs/Vehicles/radar_unit_a.prefab
+  artifactKey: Guid(554cf14d8493202408f0d4f98f759b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Military/Prefabs/Vehicles/radar_unit_a.prefab using Guid(554cf14d8493202408f0d4f98f759b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca54ca02612bbecf235a9ea4c752e80f') in 0.209379 seconds 
+  Import took 0.215595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Models/Military/Prefabs/Vehicles/tank_02_c.prefab
+  artifactKey: Guid(78512cd8eed0fd84d8844bdbe121a625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Military/Prefabs/Vehicles/tank_02_c.prefab using Guid(78512cd8eed0fd84d8844bdbe121a625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d9c708e873eb7b1f6c6e49b734197f9') in 0.049153 seconds 
+  Import took 0.056324 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/Models/Military/Prefabs/Vehicles/tank_02_b.prefab
+  artifactKey: Guid(a36779319c808c140bbff8ca86e1b5cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Military/Prefabs/Vehicles/tank_02_b.prefab using Guid(a36779319c808c140bbff8ca86e1b5cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04b346324f4e705a29fb7dd177e3b39d') in 0.137839 seconds 
+  Import took 0.144497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Models/Military/Prefabs/Vehicles/apc_02_b.prefab
+  artifactKey: Guid(f48214743cd06084bb4701a7dfd816fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Military/Prefabs/Vehicles/apc_02_b.prefab using Guid(f48214743cd06084bb4701a7dfd816fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cddec5cf1e88a62324a13502c31e2a28') in 0.127105 seconds 
+  Import took 0.136126 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000920 seconds.
+  path: Assets/Models/Military/Prefabs/Vehicles/attack_heli_c.prefab
+  artifactKey: Guid(0a44908b33c3a6a42b7f0310ec5f9842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Military/Prefabs/Vehicles/attack_heli_c.prefab using Guid(0a44908b33c3a6a42b7f0310ec5f9842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0136776d4716b0f7ef34312e2d3d3ebd') in 0.026915 seconds 
+  Import took 0.033304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Models/Military/Prefabs/Vehicles/armor_car_b.prefab
+  artifactKey: Guid(1e3da4ec1182cb74f9c49f5c29576b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Military/Prefabs/Vehicles/armor_car_b.prefab using Guid(1e3da4ec1182cb74f9c49f5c29576b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ea7b5feb6424c6b588377da494f6b3a') in 0.154552 seconds 
+  Import took 0.159538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Models/Military/Prefabs/Vehicles/small_heli_c.prefab
+  artifactKey: Guid(232e88d2f8323b64cbb6f6f0cb473850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Military/Prefabs/Vehicles/small_heli_c.prefab using Guid(232e88d2f8323b64cbb6f6f0cb473850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0ee5fcb5800735a04526ad17fee5a6f') in 0.128132 seconds 
+  Import took 0.134270 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000386 seconds.
+  path: Assets/Models/Military/Prefabs/Vehicles/truck_troop_02_c.prefab
+  artifactKey: Guid(0e34577da2edb034e85996d04164266e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Military/Prefabs/Vehicles/truck_troop_02_c.prefab using Guid(0e34577da2edb034e85996d04164266e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e0e99baa47bc954f176342ce28966c8') in 0.031435 seconds 
+  Import took 0.039579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000479 seconds.
+  path: Assets/Models/Military/Prefabs/Vehicles/apc_01_b.prefab
+  artifactKey: Guid(78588ac03656fbf42b4073ff899b2603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Military/Prefabs/Vehicles/apc_01_b.prefab using Guid(78588ac03656fbf42b4073ff899b2603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65ef8f3e2142b228517b50f427c1d26c') in 0.033961 seconds 
+  Import took 0.039533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Models/Military/Prefabs/Vehicles/truck_troop_b.prefab
+  artifactKey: Guid(7948ded7b61599e4bb66879e60a0eb83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Military/Prefabs/Vehicles/truck_troop_b.prefab using Guid(7948ded7b61599e4bb66879e60a0eb83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '783540bedd20685d327e110e5ed05445') in 0.045276 seconds 
+  Import took 0.049894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000466 seconds.
+  path: Assets/Models/Military/Prefabs/Vehicles/troop_car_c.prefab
+  artifactKey: Guid(e28653fd6db76db4b9bbb68f33e6f38d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Military/Prefabs/Vehicles/troop_car_c.prefab using Guid(e28653fd6db76db4b9bbb68f33e6f38d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9525b9ae9417a92f4d2aa79b33682f10') in 0.165521 seconds 
+  Import took 0.171285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000647 seconds.
+  path: Assets/Models/Military/Prefabs/Vehicles/radar_unit_b.prefab
+  artifactKey: Guid(8c5c4e72ec0d410498df2c7346fef4ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Military/Prefabs/Vehicles/radar_unit_b.prefab using Guid(8c5c4e72ec0d410498df2c7346fef4ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbf46fec9955edfe744a2a760726317d') in 0.033173 seconds 
+  Import took 0.038064 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Models/Military/Prefabs/Vehicles/attack_heli_a.prefab
+  artifactKey: Guid(ef96e3ea73734ac48ab02e84dc53ce24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Military/Prefabs/Vehicles/attack_heli_a.prefab using Guid(ef96e3ea73734ac48ab02e84dc53ce24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f9c90db02401f1c7a5c416c26653899') in 0.123332 seconds 
+  Import took 0.130590 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000854 seconds.
+  path: Assets/Models/Military/Prefabs/Vehicles/apc_02_a.prefab
+  artifactKey: Guid(3764f40f46fab2a40affda0d35aac14c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Military/Prefabs/Vehicles/apc_02_a.prefab using Guid(3764f40f46fab2a40affda0d35aac14c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '846e7112c8652e36295f2559f33b26eb') in 0.030507 seconds 
+  Import took 0.035858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/Models/Military/Prefabs/Vehicles/attack_heli_b.prefab
+  artifactKey: Guid(0c5299445fe04d24bb3eb0b4735b78db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Military/Prefabs/Vehicles/attack_heli_b.prefab using Guid(0c5299445fe04d24bb3eb0b4735b78db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '882574b32a911d4f855c28056e1d3c7f') in 0.116811 seconds 
+  Import took 0.122328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Models/Military/Prefabs/Vehicles/tank_02_a.prefab
+  artifactKey: Guid(e29b08ecc4d00ac4ea7de0390b06452d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Military/Prefabs/Vehicles/tank_02_a.prefab using Guid(e29b08ecc4d00ac4ea7de0390b06452d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '734ec52be53d96eed86882ca8838a4fe') in 0.032025 seconds 
+  Import took 0.038031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Models/Military/Prefabs/Vehicles/tank_01_a.prefab
+  artifactKey: Guid(a7bbdd126814c76429662524a1ce521d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Military/Prefabs/Vehicles/tank_01_a.prefab using Guid(a7bbdd126814c76429662524a1ce521d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a2fc73037125585202cb47362e59038') in 0.189169 seconds 
+  Import took 0.193202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Models/Military/Prefabs/Vehicles/apc_02_c.prefab
+  artifactKey: Guid(312242bef01fddb4faa2a0c00652d698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Military/Prefabs/Vehicles/apc_02_c.prefab using Guid(312242bef01fddb4faa2a0c00652d698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '107d93dc9074964413d5ca128ec8c2b6') in 0.030198 seconds 
+  Import took 0.033686 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/Models/Military/Prefabs/Vehicles/tank_01_b.prefab
+  artifactKey: Guid(6e7fcd75dc88d6640aac3149cdbaed8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Military/Prefabs/Vehicles/tank_01_b.prefab using Guid(6e7fcd75dc88d6640aac3149cdbaed8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1ba35ab9b2bb5ac52a88d659ef5aa27') in 0.098656 seconds 
+  Import took 0.104645 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Models/Military/Prefabs/Vehicles/troop_car_a.prefab
+  artifactKey: Guid(b967a221e8d0cee4d84b5a2eebd8814c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Military/Prefabs/Vehicles/troop_car_a.prefab using Guid(b967a221e8d0cee4d84b5a2eebd8814c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ae6c3a82c8338af8385a18cfef1fb3c') in 0.035138 seconds 
+  Import took 0.041136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Models/Military/Prefabs/Vehicles/truck_troop_a.prefab
+  artifactKey: Guid(193e99204fc00b6439053d33e494c3b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Military/Prefabs/Vehicles/truck_troop_a.prefab using Guid(193e99204fc00b6439053d33e494c3b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56d84c65cfee4a7f9a5d2bbc80a45c8f') in 0.044057 seconds 
+  Import took 0.050315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Models/Military/Prefabs/Vehicles/truck_troop_02_a.prefab
+  artifactKey: Guid(75e860cc51dc4cb48a693fc806fc3918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Military/Prefabs/Vehicles/truck_troop_02_a.prefab using Guid(75e860cc51dc4cb48a693fc806fc3918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeae944348077331794bab49ea966274') in 0.058419 seconds 
+  Import took 0.065222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/Models/Military/Prefabs/Vehicles/troop_car_b.prefab
+  artifactKey: Guid(75a30b474bd763e4bbdd1a6682411343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Military/Prefabs/Vehicles/troop_car_b.prefab using Guid(75a30b474bd763e4bbdd1a6682411343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a077417ddc4ca9a5d75a74b8721a8af') in 0.141626 seconds 
+  Import took 0.146615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 315.286296 seconds.
+  path: Assets/Scripts/Player Scripts/BaseController.cs
+  artifactKey: Guid(f0ac741890d27139bbf1bbdaaa10b291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player Scripts/BaseController.cs using Guid(f0ac741890d27139bbf1bbdaaa10b291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52574944a9438ebf2bee19d13e5e6273') in 0.059349 seconds 
+  Import took 0.075302 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.080207 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.468 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.6 MB.
+System memory in use after: 62.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1836.
+Total: 5.155063 ms (FindLiveObjects: 0.492153 ms CreateObjectMapping: 0.458883 ms MarkObjects: 4.066072 ms  DeleteObjects: 0.134738 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 236.973445 seconds.
+  path: Assets/Scripts/Player Scripts/PlayerController.cs
+  artifactKey: Guid(d25dd41d2c7668aaab78cbf28fa526d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player Scripts/PlayerController.cs using Guid(d25dd41d2c7668aaab78cbf28fa526d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c344d604c61a7fe75225335d087d56c8') in 0.007811 seconds 
+  Import took 0.068002 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003646 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.545 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1383 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.7 MB.
+System memory in use after: 62.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1840.
+Total: 3.469175 ms (FindLiveObjects: 0.254862 ms CreateObjectMapping: 0.067733 ms MarkObjects: 3.015926 ms  DeleteObjects: 0.127537 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 48.199674 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(63fedd37e4d4654c0b14b270a0476a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(63fedd37e4d4654c0b14b270a0476a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fdcf88953041cb4f98674b950816d0e') in 0.004951 seconds 
+  Import took 0.009178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000997 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(63fedd37e4d4654c0b14b270a0476a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(63fedd37e4d4654c0b14b270a0476a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fdcf88953041cb4f98674b950816d0e') in 0.001234 seconds 
+  Import took 0.024263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.131190 seconds.
+  path: Assets/Prefabs/Player Prefabs
+  artifactKey: Guid(76899250edb7c1ff59980f67bec7882d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player Prefabs using Guid(76899250edb7c1ff59980f67bec7882d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09b58612256103a27e68417751c076ec') in 0.002156 seconds 
+  Import took 0.007200 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.150157 seconds.
+  path: Assets/Prefabs/Player Prefabs/Player Tank 1.prefab
+  artifactKey: Guid(bedcbeb50a4121ea79d666c094406fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player Prefabs/Player Tank 1.prefab using Guid(bedcbeb50a4121ea79d666c094406fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c622ff396b844684fa28872fbcd20137') in 0.492077 seconds 
+  Import took 0.495764 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
