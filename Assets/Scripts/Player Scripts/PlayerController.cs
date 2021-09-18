@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerController : BaseController
 {
@@ -12,17 +13,26 @@ public class PlayerController : BaseController
 
     public ParticleSystem shootFX;
 
+    private Animator shootSliderAnim;
+
+    [HideInInspector]
+    public bool canShoot;
+
     void Start()
     {
         myBody = GetComponent<Rigidbody>();
+
+        shootSliderAnim = GameObject.Find("Fire Bar").GetComponent<Animator>();
+
+        GameObject.Find("ShootBtn").GetComponent<Button>().onClick.AddListener(ShootingControl);
+
+        canShoot = true;
     }
 
     void Update()
     {
         ControlMovementWithKeyboard();
         ChangeRotation();
-
-        ShootingControl();
     }
 
     void FixedUpdate() {
@@ -88,12 +98,19 @@ public class PlayerController : BaseController
     }
 
     public void ShootingControl() {
-        if(Input.GetMouseButtonDown(0)) {
-            GameObject bullet = Instantiate(bullet_Prefab, bullet_StartPoint.position, Quaternion.identity);
+        if(Time.timeScale != 0) {
+            if(canShoot) {
+                GameObject bullet = Instantiate(bullet_Prefab, bullet_StartPoint.position, Quaternion.identity);
 
-            bullet.GetComponent<BulletScript>().Move(2000f);
+                bullet.GetComponent<BulletScript>().Move(2000f);
 
-            shootFX.Play();
+                shootFX.Play();
+
+                canShoot = false;
+
+                // Call the anim
+                shootSliderAnim.Play("Fill");
+            }
         }
     }
 }
