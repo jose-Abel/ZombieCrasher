@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameplayController : MonoBehaviour
 {
@@ -18,6 +20,16 @@ public class GameplayController : MonoBehaviour
 
     private BaseController playerController;
 
+    private Text score_Text;
+
+    private int zombie_Kill_Count;
+
+    [SerializeField]
+    private GameObject pausePanel;
+
+    [SerializeField]
+    private GameObject gameover_Panel;
+
     void Awake() {
         MakeInstance();
     }
@@ -29,6 +41,8 @@ public class GameplayController : MonoBehaviour
         playerController = GameObject.FindGameObjectWithTag("Player").GetComponent<BaseController>();
 
         StartCoroutine("GenerateObstacles");
+
+        score_Text = GameObject.Find("ScoreText").GetComponent<Text>();
     }
 
     void MakeInstance() {
@@ -120,5 +134,11 @@ public class GameplayController : MonoBehaviour
 
             Instantiate(zombiePrefabs[Random.Range(0, zombiePrefabs.Length)], pos + shift * i, Quaternion.identity);
         }
+    }
+
+    public void IncreaseScore() {
+        zombie_Kill_Count++;
+        
+        score_Text.text = zombie_Kill_Count.ToString();
     }
 }

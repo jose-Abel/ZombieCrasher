@@ -62,7 +62,7 @@ public class ZombieScript : MonoBehaviour
 
             Invoke("DeactivateGameObject", 3f);
 
-            // Increase score
+            GameplayController.instance.IncreaseScore();
 
             Die();
         }
