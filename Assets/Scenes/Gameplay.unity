@@ -313,7 +313,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 148198799}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2045221425}
+        m_TargetAssemblyTypeName: GameplayController, Assembly-CSharp
+        m_MethodName: ResumeGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &148198799
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -587,7 +599,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 426621634}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2045221425}
+        m_TargetAssemblyTypeName: GameplayController, Assembly-CSharp
+        m_MethodName: ExitGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &426621634
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1671,7 +1695,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 946465451}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2045221425}
+        m_TargetAssemblyTypeName: GameplayController, Assembly-CSharp
+        m_MethodName: PauseGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &946465451
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2457,7 +2493,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1430418377}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2045221425}
+        m_TargetAssemblyTypeName: GameplayController, Assembly-CSharp
+        m_MethodName: Restart
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1430418377
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2538,7 +2586,7 @@ GameObject:
   - component: {fileID: 1531388202}
   - component: {fileID: 1531388201}
   m_Layer: 5
-  m_Name: Text
+  m_Name: ScoreText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2614,6 +2662,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1574983031}
+  - component: {fileID: 1574983033}
+  - component: {fileID: 1574983032}
   m_Layer: 5
   m_Name: Gameover Panel
   m_TagString: Untagged
@@ -2644,6 +2694,37 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!95 &1574983032
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1574983030}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f2d74dbf446e7d7ebba655568b86f74c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 2
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!225 &1574983033
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1574983030}
+  m_Enabled: 1
+  m_Alpha: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1579242779
 GameObject:
   m_ObjectHideFlags: 0
@@ -2996,7 +3077,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1746922092}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2045221425}
+        m_TargetAssemblyTypeName: GameplayController, Assembly-CSharp
+        m_MethodName: ExitGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1746922092
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3508,6 +3601,9 @@ MonoBehaviour:
   - {fileID: 1087572705}
   min_ObstacleDelay: 10
   max_ObstacleDelay: 40
+  pausePanel: {fileID: 170386217}
+  gameover_Panel: {fileID: 1574983030}
+  final_Score: {fileID: 440728963}
 --- !u!4 &2045221426
 Transform:
   m_ObjectHideFlags: 0

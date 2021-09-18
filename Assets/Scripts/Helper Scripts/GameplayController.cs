@@ -30,6 +30,9 @@ public class GameplayController : MonoBehaviour
     [SerializeField]
     private GameObject gameover_Panel;
 
+    [SerializeField]
+    private Text final_Score;
+
     void Awake() {
         MakeInstance();
     }
@@ -140,5 +143,37 @@ public class GameplayController : MonoBehaviour
         zombie_Kill_Count++;
         
         score_Text.text = zombie_Kill_Count.ToString();
+    }
+
+    public void PauseGame() {
+        pausePanel.SetActive(true);
+
+        Time.timeScale = 0f;
+    }
+
+    public void ResumeGame() {
+        pausePanel.SetActive(false);
+
+        Time.timeScale = 1f;
+    }
+
+    public void ExitGame() {
+        Time.timeScale = 1f;
+        
+        SceneManager.LoadScene("MainMenu");
+    }
+
+    public void Gameover() {
+        Time.timeScale = 0f;
+        
+        gameover_Panel.SetActive(true);
+
+        final_Score.text = "Killed: " + zombie_Kill_Count.ToString();
+    }
+
+    public void Restart() {
+        Time.timeScale = 1f;
+
+        SceneManager.LoadScene("Gameplay");
     }
 }

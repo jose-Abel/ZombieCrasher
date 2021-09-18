@@ -32,7 +32,7 @@ public class PlayerHealth : MonoBehaviour
         if(healthValue == 0) {
             UI_Holder.SetActive(false);
 
-            // GameplayController.instance.Gameover();
+            GameplayController.instance.Gameover();
         }
     }
 
